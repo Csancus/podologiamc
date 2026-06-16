@@ -1051,7 +1051,7 @@ p:last-child { margin-bottom: 0; }
   .footer-grid   { grid-template-columns: 1fr 1fr; }
   .page-layout   { grid-template-columns: 1fr; }
   .contact-layout { grid-template-columns: 1fr; }
-  .sidebar { order: -1; }
+  .sidebar { order: 1; }
 }
 @media (max-width: 768px) {
   :root { --nav-h: 64px; }

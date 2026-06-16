@@ -1,0 +1,203 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/style.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/script.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/irasaink",
+      "destination": "/blog/irasaink",
+      "permanent": true
+    },
+    {
+      "source": "/teicht-katalin",
+      "destination": "/blog/teicht-katalin",
+      "permanent": true
+    },
+    {
+      "source": "/a-pedikur-nem-csak-az-esztetikarol-szol",
+      "destination": "/blog/a-pedikur-nem-csak-az-esztetikarol-szol",
+      "permanent": true
+    },
+    {
+      "source": "/mire-tanitsa-gyermeket-a-kormeivel-kapcsolatban",
+      "destination": "/blog/mire-tanitsa-gyermeket-a-kormeivel-kapcsolatban",
+      "permanent": true
+    },
+    {
+      "source": "/tulajdonkeppen-mi-a-podologia",
+      "destination": "/blog/tulajdonkeppen-mi-a-podologia",
+      "permanent": true
+    },
+    {
+      "source": "/legyunk-igenyesek-labainkra",
+      "destination": "/blog/legyunk-igenyesek-labainkra",
+      "permanent": true
+    },
+    {
+      "source": "/egeszseges-labak-nem-csak-nyaron",
+      "destination": "/blog/egeszseges-labak-nem-csak-nyaron",
+      "permanent": true
+    },
+    {
+      "source": "/hogyan-pihentessuk-labainkat",
+      "destination": "/blog/hogyan-pihentessuk-labainkat",
+      "permanent": true
+    },
+    {
+      "source": "/prevencio-a-labapolasban",
+      "destination": "/blog/prevencio-a-labapolasban",
+      "permanent": true
+    },
+    {
+      "source": "/onnek-veszelyes-a-munkaja-labaira",
+      "destination": "/blog/onnek-veszelyes-a-munkaja-labaira",
+      "permanent": true
+    },
+    {
+      "source": "/egy-jo-talpbetet-igazi-gyogyir",
+      "destination": "/blog/egy-jo-talpbetet-igazi-gyogyir",
+      "permanent": true
+    },
+    {
+      "source": "/a-diabeteszes-lab-veszelyei",
+      "destination": "/blog/a-diabeteszes-lab-veszelyei",
+      "permanent": true
+    },
+    {
+      "source": "/miert-izzad-a-labunk-osszel-is",
+      "destination": "/blog/miert-izzad-a-labunk-osszel-is",
+      "permanent": true
+    },
+    {
+      "source": "/allandoan-faznak-a-labai-igy-tegyen-ellene",
+      "destination": "/blog/allandoan-faznak-a-labai-igy-tegyen-ellene",
+      "permanent": true
+    },
+    {
+      "source": "/az-emberi-test-futomuve",
+      "destination": "/blog/az-emberi-test-futomuve",
+      "permanent": true
+    },
+    {
+      "source": "/ezt-ne-kovesse-el-a-zartcipo-szezonban",
+      "destination": "/blog/ezt-ne-kovesse-el-a-zartcipo-szezonban",
+      "permanent": true
+    },
+    {
+      "source": "/problemas-terulet-van-a-laban-ne-halogassa-tovabb",
+      "destination": "/blog/problemas-terulet-van-a-laban-ne-halogassa-tovabb",
+      "permanent": true
+    },
+    {
+      "source": "/mire-kell-figyelni-az-otthoni-labapolas-soran",
+      "destination": "/blog/mire-kell-figyelni-az-otthoni-labapolas-soran",
+      "permanent": true
+    },
+    {
+      "source": "/elso-latogatas-a-pedikurosnel",
+      "destination": "/blog/elso-latogatas-a-pedikurosnel",
+      "permanent": true
+    },
+    {
+      "source": "/podologia-a-labak-egeszsegenek-szolgalataban",
+      "destination": "/blog/podologia-a-labak-egeszsegenek-szolgalataban",
+      "permanent": true
+    },
+    {
+      "source": "/nyari-lakktrendek-labra",
+      "destination": "/blog/nyari-lakktrendek-labra",
+      "permanent": true
+    },
+    {
+      "source": "/tavaszi-labapolas",
+      "destination": "/blog/tavaszi-labapolas",
+      "permanent": true
+    },
+    {
+      "source": "/csodakat-muveltel",
+      "destination": "/blog/csodakat-muveltel",
+      "permanent": true
+    },
+    {
+      "source": "/milyen-cipot-viseljek-hogy-egeszseges-maradjon-a-labam",
+      "destination": "/blog/milyen-cipot-viseljek-hogy-egeszseges-maradjon-a-labam",
+      "permanent": true
+    },
+    {
+      "source": "/mi-okozza-a-lab-budosodeset-nyaron",
+      "destination": "/blog/mi-okozza-a-lab-budosodeset-nyaron",
+      "permanent": true
+    },
+    {
+      "source": "/benott-a-kormom-most-mit-tegyek",
+      "destination": "/blog/benott-a-kormom-most-mit-tegyek",
+      "permanent": true
+    },
+    {
+      "source": "/gyermekkori-lab-es-bokaproblemak",
+      "destination": "/blog/gyermekkori-lab-es-bokaproblemak",
+      "permanent": true
+    },
+    {
+      "source": "/a-virusos-szemolcs-elmulik-magatol",
+      "destination": "/blog/a-virusos-szemolcs-elmulik-magatol",
+      "permanent": true
+    },
+    {
+      "source": "/a-nyar-slagere-calluspeeling-kezeles",
+      "destination": "/blog/a-nyar-slagere-calluspeeling-kezeles",
+      "permanent": true
+    },
+    {
+      "source": "/specialis-spa-kezeles-a-labaknak",
+      "destination": "/blog/specialis-spa-kezeles-a-labaknak",
+      "permanent": true
+    },
+    {
+      "source": "/latott-mar-focista-labakat",
+      "destination": "/blog/latott-mar-focista-labakat",
+      "permanent": true
+    },
+    {
+      "source": "/mit-hasznaljunk-az-otthoni-labapolas-soran",
+      "destination": "/blog/mit-hasznaljunk-az-otthoni-labapolas-soran",
+      "permanent": true
+    }
+  ]
+}

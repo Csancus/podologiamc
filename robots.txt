@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /adatkezelesi-tajekoztato/
+Disallow: /cookie-szabalyzat/
+
+Sitemap: https://podologiamc.hu/sitemap.xml
